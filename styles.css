@@ -1,0 +1,37 @@
+/* Estilos básicos para las imágenes */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  
+  h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .imagen {
+    width: 200px;
+    height: auto;
+    border: 5px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imagen:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  
